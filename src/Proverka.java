@@ -1,18 +1,13 @@
-public class Proverka {
-    public static void main(String[] args) {
-        int array[] = {3,5,2,4,1};
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length - 1; j++) {
-                if (array[j] > array[j + 1]) {
-                    int temp = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = temp;
-                }
-            }
-        }
+import java.util.Arrays;
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+public class Proverka {
+//    найти максимальное минимальное и среднгее значение из 10 чисел
+public static void main(String[] args) {
+    int [] chisla = {1,2,3};
+    int max = chisla[0];
+    for (int i=0; i < chisla.length; i++){
+        if(max < chisla[i]){
+        max = chisla[i];
         }
-    }
-}
+    }}}
+
