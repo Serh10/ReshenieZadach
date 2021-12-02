@@ -8,6 +8,7 @@ public class O11Static {
 
 
 
+
 class Human{
     private String imya;
     private int vozrast;
