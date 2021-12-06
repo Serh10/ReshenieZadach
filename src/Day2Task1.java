@@ -15,4 +15,4 @@ public class Day2Task1 {
             System.out.println("Ошибка ввода");
         }
     }
-}т
+}
